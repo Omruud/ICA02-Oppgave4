@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+    const sample = "\x6e\x6f\x72\x64 \x6f\x67 \x73\xc3\xb8\x72"
+    const sample1 = "\x6e\x6f\x72\xc3\xb0\x75\x72 \x6f\x67 \x73\x75\xc3\xb0\x75\x72"
+    const sample2 = "\xe5\x8c\x97\xe3\x81\xa8\xe5\x8d\x97"
+
+    fmt.Println(sample)
+    fmt.Println(sample1)
+    fmt.Println(sample2)
+}
